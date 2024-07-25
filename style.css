@@ -1,0 +1,98 @@
+ /*navigation*/
+ .bg-custom {
+	background-color: #164f1d;
+}
+.nav-link, .navbar-brand {
+	color: white;
+}
+.navbar-text a{
+	color: white;
+}
+/*hero section*/
+ .jumbotron{
+	background-color: #164f1d;
+	padding: 2rem 4rem;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	user-select: none;
+	border-radius: 0rem;
+	
+
+}
+.jumbotron img{
+    width: 500px;
+  }
+
+/*about us section*/
+#brandname{
+	color: #164f1d;
+}
+#about #title{
+	color: orange;
+}
+#about p{
+	text-align: justify;
+	user-select: none;
+
+}
+/*product section*/
+#product #product_icons {
+	width: 40px;
+}
+ #product #product_icons img{
+ 	background-color: orange;
+ 	margin: 5px 0px;
+ 	padding: 5px ;
+
+
+ }
+ #product_icons  {
+ 	position: absolute;;
+ 	top: 25px;
+ 	opacity: 0;
+ 	transition: opacity 0.3s;
+ 	cursor: pointer;
+ 	
+ }
+ #product .card:hover #product_icons{
+ 	opacity: 1;
+ }
+ #icon {
+ 	padding: 20px;
+ }
+ #addtocart{
+ 	width: 32px;
+ 	float: right;
+ 	background-color: orange;
+  }
+/*.slider {
+	display: flex;
+	align-items: center;
+}*/
+.slider img{
+	width: 200px;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	margin-top: 200px;
+	height: 550px;
+	background-color: #164f1d;
+	color: white;
+}
+.footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+.social_icons {
+	display: flex;
+	justify-content: center;
+}
+.footer1{
+	height: 200px;
+	margin-top: 200px;
+	background-color: orange;
+}
